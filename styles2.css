@@ -1,0 +1,352 @@
+body {
+  padding: 0;
+  background-color: #fff;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+.team-cards {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width:400px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.team-name{
+  font-weight: normal;
+  font-size: 34px;
+}
+.team-position{
+  color: grey;
+  font-size: 18px;
+}
+#re{
+  color: #004730;
+}
+#re:hover{
+  cursor: pointer;
+}
+.team-socials{
+  margin: 2%;
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+<!--1️⃣ code CSS below -->
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+.JOIN-US{
+
+font-family: Roboto, sans-serif;
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background-color: #e36f1e;
+padding: 10px 30px;
+border: solid #ffffff 0px;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 1px;
+transition : 454ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+}
+
+.JOIN-US:hover{
+
+transition : 454ms;
+padding: 10px 48px;
+transform : translateY(-0px);
+background-color: #004730;
+color: #ffffff;
+border: solid 0px #000000;
+}
+
+
+
+
+.c#toTopBtn {
+     position: fixed;
+    bottom: 26px;
+    right: 39px;
+    z-index: 98;
+    padding: 21px;
+    background-color: hsla(5,76%,62%,.8);
+
+}
+
+.js .cd-top--fade-out {
+    opacity: .5;
+}
+
+.js .cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.js .cd-top {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s,visibility .3s,background-color .3s;
+}d-top {
+    position: fixed;
+    bottom: 20px;
+    bottom: var(--cd-back-to-top-margin);
+    right: 20px;
+    right: var(--cd-back-to-top-margin);
+    display: inline-block;
+    height: 40px;
+    height: var(--cd-back-to-top-size);
+    width: 40px;
+    width: var(--cd-back-to-top-size);
+    box-shadow: 0 0 10px rgba(0,0,0,.05) !important;
+    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
+    background-color: hsla(5,76%,62%,.8);
+    background-color: hsla(var(--cd-color-3-h),var(--cd-color-3-s),var(--cd-color-3-l),0.8);
+}
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+.attribution {
+  font-size: 11px; text-align: center;
+  background-color: hsl(240, 5%, 91%);
+  padding: 8px 0 5px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* global */
+/*================================================*/
+
+
+body {
+  margin:0;
+  font-family: var(--principal-font);
+  font-size: 12px;
+  color: var(--neutral-dark-color);
+
+  background: var(--bg-gradient);
+  background-size: cover;
+}
+
+.card-wrapper {
+  min-height: 100vh;
+  padding-bottom: 50px; /* footer fixed */
+  padding-top: 25px;
+}
+
+p {
+  margin: 0 0 12px;
+  line-height: 1.5;
+}
+
+h2 {
+  margin: 12px 0;
+}
+
+
+/* generics */
+/*================================================*/
+
+.content-cc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FAQ card */
+/*================================================*/
+
+.faq-card {
+
+  background-color: #fff;
+  border-radius: 20px;
+
+  max-width: 310px;
+  margin-top: 90px;
+
+  box-shadow: 0px 60px 50px -25px rgba(0, 0, 0, 0.35);
+}
+
+/* FAQ card: imagenes */
+/*================================================*/
+
+
+.faq-ilustrations{
+  position: relative;
+}
+
+.faq-ilustrations .mobile.ilust{
+  position: absolute;
+  top:-110px;
+  left:-30px;
+  right: 0;
+}
+
+.mobile{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* FAQ card: main */
+/*================================================*/
+
+.faq-content {
+  padding: 9px 25px 3rem;
+}
+
+.faq-content h1 {
+  font-size: 32px;
+  text-align: center;
+  color: var(--primary-dark-color);
+}
+
+.faq-accordion {
+  padding: 8px 0;
+  border-bottom: 1px solid hsl(240, 5%, 91%);
+}
+
+
+/* FAQ card: main title */
+/*================================================*/
+
+/* checkbox tgg-title*/
+input.tgg-title {
+  appearance: unset;
+  all:unset;
+}
+
+.faq-accordion-title label{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.faq-accordion-title h2{
+  font-size: 12px /*var(--font-size)*/;
+  font-weight: 400;
+  color: var(--neutral-dark-color);
+}
+
+.faq-accordion-title span{
+  margin-left: auto;
+  transition: transform .4s ease-in-out;
+}
+
+
+/* FAQ card: main content */
+/*================================================*/
+
+.faq-accordion-content {
+  color: var(--neutral-soft-color);
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height .4s ease-in-out;
+}
+
+
+/* Effects */
+/*================================================*/
+
+/* main title, accordion title effects */
+
+.faq-accordion-title:hover h2{
+  color: var(--primary-soft-color)
+}
+
+/* onclick "" */
+.faq-accordion .tgg-title:checked + div>label>h2 {
+  font-weight: 700;
+}
+
+.faq-accordion .tgg-title:checked + div>label>span {
+  will-change: transform;
+  transform: rotate(180deg);
+}
+
+/* main content, acordion text effect */
+
+.faq-accordion .tgg-title:checked ~ .faq-accordion-content{
+  will-change: max-height;
+  max-height: 80px;
+}
+.container {
+	max-width: 100rem;
+	margin: 0 auto;
+	padding: 0 2rem 2rem;
+}
+
+.heading {
+	font-family: "Montserrat", Arial, sans-serif;
+	font-size: 4rem;
+	font-weight: 500;
+	line-height: 1.5;
+	text-align: center;
+	padding: 3.5rem 0;
+	color: #1a1a1a;
+}
+
+.heading span {
+	display: block;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	/* Compensate for excess margin on outer gallery flex items */
+	margin: -1rem -1rem;
+}
+
+.gallery-item {
+	/* Minimum width of 24rem and grow to fit available space */
+	flex: 1 0 24rem;
+	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+.gallery-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+	transform: scale(1.15);
+}
+
+/*
+
+The following rule will only run if your browser supports CSS grid.
+
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling.
+
+*/
+
+@supports (display: grid) {
+	.gallery {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+		grid-gap: 2rem;
+	}
+
+	.gallery,
+	.gallery-item {
+		margin: 0;
+	}
+}
